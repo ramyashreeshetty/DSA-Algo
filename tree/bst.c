@@ -61,6 +61,7 @@ int main(){
     p->right = p2;
     p1->left = p3;
     p1->right = p4;
+    
 
     inOrder(p);
     printf("\n");
