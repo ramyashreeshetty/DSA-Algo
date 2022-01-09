@@ -1,11 +1,4 @@
-//Problem: Write code to remove duplicates from an unsorted linked list. 1 -> 2 -> 1 ===> 1 -> 2
 
-// removeDuplicate() will remove duplicate nodes from the list.
-// Define a new node current which will initially point to head.
-// Node temp will point to current and index will always point to node next to current.
-// Loop through the list till current points to null.
-// Check whether current?s data is equal to index's data that means index is duplicate of current.
-// Since index points to duplicate node so skip it by making node next to temp to will point to node next to index, i.e. temp.next = index.next.
 
 
 #include <stdio.h>
