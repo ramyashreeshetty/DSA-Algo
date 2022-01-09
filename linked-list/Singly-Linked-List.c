@@ -125,7 +125,7 @@ NODE * delindex(NODE * head,int index)
 NODE * search(NODE * head)
 {
     NODE *ptr;  
-    int item,i=0,flag=0;  
+    int item,i=0,flag=1;  
     ptr = head;   
     if(ptr == NULL)  
     {  
@@ -141,11 +141,7 @@ NODE * search(NODE * head)
             {  
                 printf("item found at location %d ",i+1);  
                 flag=0;  
-            }   
-            else  
-            {  
-                flag=1;  
-            }  
+            }
             i++;  
             ptr = ptr -> link;  
         }  
