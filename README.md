@@ -1,2 +1,3 @@
-Data strcuture concepts and Algorithms.
+Data structure concepts and Algorithms.
+Programming Languages : C & Java.
 
